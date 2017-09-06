@@ -12,10 +12,10 @@ class Home extends General_controller {
 	
 	public function index()
 	{
+		parent::load_additional_js("<script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyAIqHcLuMsN578BJYKT3AY-xslWgCjf9cY&callback=initMap' defer></script>", true);
 		$data = array(
 			"title" => "Home"
 		);
-		
 		parent::view("home", $data);
 	}
 }

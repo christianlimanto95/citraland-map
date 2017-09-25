@@ -5,7 +5,7 @@
 	</div>
 	<div class="keterangan-container">
 		<div class="keterangan-title">Keterangan</div>
-		<table>
+		<table class="table-point">
 			<tr>
 				<td class="td-label">1.</td>
 				<td class="td-value">Brother House, Hall Citraland</td>

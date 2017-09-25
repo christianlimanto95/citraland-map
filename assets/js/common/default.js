@@ -28,3 +28,20 @@ function addCommas(nStr) {
     }
     return x1 + x2;
 }
+
+function ajaxCall(url, data, callback) {
+	var ajaxVariable = $.ajax({
+		url: url,
+		data: data,
+		type: 'POST',
+		error: function(jqXHR, exception) {
+			if (exception != "abort") {
+				console.log(jqXHR + " : " + jqXHR.responseText);
+			}
+		},
+		success: function(result) {
+			callback(result);
+		}
+	});
+	return ajaxVariable;
+}

@@ -61,6 +61,46 @@ class Home extends General_controller {
 		$point->heading = 187;
 		array_push($points, $point);
 
+		$point = new stdClass();
+		$point->id = 6;
+		$point->label = "Immanuel Timur";
+		$point->lat = -7.2970094;
+		$point->lng = 112.6291831;
+		$point->heading = 70;
+		array_push($points, $point);
+
+		$point = new stdClass();
+		$point->id = 7;
+		$point->label = "Tony Kodrajaja";
+		$point->lat = -7.2975966;
+		$point->lng = 112.6285072;
+		$point->heading = 200;
+		array_push($points, $point);
+
+		$point = new stdClass();
+		$point->id = 8;
+		$point->label = "Herman";
+		$point->lat = -7.2919903;
+		$point->lng = 112.6519686;
+		$point->heading = 0;
+		array_push($points, $point);
+
+		$point = new stdClass();
+		$point->id = 9;
+		$point->label = "Alfian";
+		$point->lat = -7.2789538;
+		$point->lng = 112.6424127;
+		$point->heading = 350;
+		array_push($points, $point);
+
+		$point = new stdClass();
+		$point->id = 10;
+		$point->label = "Lanny Wonggo";
+		$point->lat = -7.2741205;
+		$point->lng = 112.645516;
+		$point->heading = 170;
+		array_push($points, $point);
+
 		echo json_encode($points);
 	}
 }

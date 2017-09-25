@@ -8,7 +8,7 @@
 		<table class="table-point">
 			<tr>
 				<td class="td-label">1.</td>
-				<td class="td-value">Brother House, Hall Citraland</td>
+				<td class="td-value">Hall Citraland</td>
 			</tr>
 			<tr>
 				<td class="td-label">2.</td>
@@ -25,6 +25,26 @@
 			<tr>
 				<td class="td-label">5.</td>
 				<td class="td-value">Soemadi</td>
+			</tr>
+			<tr>
+				<td class="td-label">6.</td>
+				<td class="td-value">Immanuel Timur</td>
+			</tr>
+			<tr>
+				<td class="td-label">7.</td>
+				<td class="td-value">Tony Kodrajaja</td>
+			</tr>
+			<tr>
+				<td class="td-label">8.</td>
+				<td class="td-value">Herman</td>
+			</tr>
+			<tr>
+				<td class="td-label">9.</td>
+				<td class="td-value">Alfian</td>
+			</tr>
+			<tr>
+				<td class="td-label">10.</td>
+				<td class="td-value">Lanny Wonggo</td>
 			</tr>
 		</table>
 	</div>
